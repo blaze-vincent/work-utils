@@ -1,3 +1,5 @@
+//ensure url matches pattern website.name/wp-admin/plugins.php
+
 Array.from(document.querySelector('tbody').querySelectorAll('tr')).filter((tr, index, arr) => {
 	if(arr[index + 1]){
 		return arr[index + 1].querySelector('td.plugin-update')
